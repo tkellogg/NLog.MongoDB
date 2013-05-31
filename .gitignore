@@ -13,3 +13,4 @@ rakefile.config.rb
 *.DotSettings
 Upgrade*
 packages
+*.userprefs

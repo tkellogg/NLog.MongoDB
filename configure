@@ -1,0 +1,8 @@
+#!/bin/sh
+# Run ./configure to install all nuget packages on Linux or Mac
+
+cd NLog.MongoDB
+mono ../.nuget/NuGet.exe install -OutputDirectory ../packages
+cd ../NLog.MongoDB.Tests
+mono ../.nuget/NuGet.exe install -OutputDirectory ../packages
+cd ..
